@@ -1,0 +1,23 @@
+- name: "Montreal375"
+  description: "Ceci est une description.Ceci est une description.Ceci est une description.Ceci est une description.Ceci est une description.Ceci est une description.Ceci est une description.Ceci est une description.Ceci est une description."
+  images:
+    - file: "cabin.png"
+      description: "Description.
+        Plus de description"
+    - file: "cake.png"
+      description: "Description.
+        Plus de description"
+    - file: "cabin.png"
+      description: "Description.
+        Plus de description"
+    - file: "cake.png"
+      description: "Description.
+        Plus de description"
+    - file: "cabin.png"
+      description: "Description.
+        Plus de description"
+    - file: "cake.png"
+    - file: "cabin.png"
+    - file: "cake.png"
+    - file: "cabin.png"
+    - file: "cake.png"
