@@ -143,6 +143,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
+        color: #000;
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -173,6 +174,15 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 .navbar-default,
