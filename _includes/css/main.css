@@ -4,9 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+/*body {
     overflow-x: hidden;
-}
+    font-size: 1.5em;
+}*/
 
 p {
     font-size: 20px;
@@ -22,7 +23,6 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -76,6 +76,10 @@ hr.star-primary:after {
 
 .img-centered {
     margin: 0 auto;
+}
+
+.container {
+    min-height: 40px;
 }
 
 header {
@@ -136,22 +140,24 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 0 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-fixed-top .navbar-brand {
+        padding-top: 10px;
+        padding-bottom: 10px;
         color: #FFF;
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 0 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -160,6 +166,8 @@ header .intro-text .skills {
 }
 
 .navbar {
+    min-height: 40px;
+    height: 40px;
     font-family: Rajdhani,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
 }
@@ -177,6 +185,9 @@ header .intro-text .skills {
 }
 
 .navbar-default .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #FFF;
 }
 
