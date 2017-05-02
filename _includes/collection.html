@@ -6,73 +6,14 @@
         <hr>
       </div>
 
+      {% for image in collection.images %}
       <div class="row">
-        <div class="col-sm-10 col-sm-offset-1">
-          <div class="col-sm-6 portfolio-nopadding">
-            {% assign image = collection.images[0] %}
-            <div class="col-sm-12 portfolio-item">
-              {% include image-with-description.html %}
-            </div>
-
-            {% for image in collection.images limit:2 offset:1 %}
-            <div class="col-sm-6 portfolio-item">
-              {% include image-with-description.html %}
-            </div>
-            {% endfor %}
-          </div>
-
-          <div class="col-sm-6 portfolio-nopadding">
-            {% for image in collection.images limit:2 offset:3 %}
-            <div class="col-sm-6 portfolio-item">
-              {% include image-with-description.html %}
-            </div>
-            {% endfor %}
-
-            {% assign image = collection.images[5] %}
-            <div class="col-sm-12 portfolio-item">
-              {% include image-with-description.html %}
-            </div>
-          </div>
-
-          <div class="col-md-10 col-md-offset-1">
-            <div class="portfolio-description">
-              <p>{{ collection.description }}</p>
-            </div>
-          </div>
-
-          <div class="col-sm-6 portfolio-nopadding">
-            {% assign image = collection.images[6] %}
-            <div class="col-sm-12 portfolio-item">
-              {% include image-with-description.html %}
-            </div>
-
-            {% for image in collection.images limit:2 offset:7 %}
-            <div class="col-sm-6 portfolio-item">
-              {% include image-with-description.html %}
-            </div>
-            {% endfor %}
-          </div>
-
-          <div class="col-sm-6 portfolio-nopadding">
-            {% for image in collection.images limit:2 offset:9 %}
-            <div class="col-sm-6 portfolio-item">
-              {% include image-with-description.html %}
-            </div>
-            {% endfor %}
-
-            {% assign image = collection.images[11] %}
-            <div class="col-sm-12 portfolio-item">
-              {% include image-with-description.html %}
-            </div>
-          </div>
-
-          {% for image in collection.images offset:12 %}
-            <div class="col-sm-3 portfolio-item">
-              {% include image-with-description.html %}
-            </div>
-          {% endfor %}
+        <div class="col-sm-10 col-sm-offset-1 portfolio-item">
+          {% include image-with-description.html %}
         </div>
       </div>
+      <br>
+      {% endfor %}
 
     {% endfor %}
   </div>
