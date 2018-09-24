@@ -1,3 +1,12 @@
+- name: "Murales"
+  description: "Collection de murales sérigraphiées par mes petites mains main, dans mon atelier à Montréal. Les murales font souffler un vent de renouveau dans le monde de la tapisserie avec un mélange sensible de textures, de motifs folks, et de design graphique. J’offre un service sur mesure, de la conception de motifs exclusifs à la recherche de couleurs, pour proposer des décors muraux sérigraphiés qui sauront s’adapter à tous les espaces, et répondre aux cahiers des charges les plus pointus. Les murales sont imprimées sur une toile de coton facile d’entretien et lavable, à encoller au mur ou à tendre sur un châssis. Entièrement de fabrication montréalaise, les murales renouent avec un riche passé du papier peint imprimé à la main, en y ajoutant une touche de design contemporain."
+  images:
+    - file: "Mise en situation Murale_1catalogue.jpg"
+    - file: "Mise en situation_4catalogue.jpg"
+    - file: "Mise en situation Murale_2catalogue.jpg"
+    - file: "Mise en situation Murale_3catalogue.jpg"
+    - file: "Mise en situation Murale_5catalogue.jpg"
+
 - name: "Montreal_375"
   description: "Montréal s’apprête à célébrer le 375ème  anniversaire de sa fondation. Les festivités liées à cet évènement sont en préparation. En s’inscrivant dans ce contexte, le projet MTL375 réinterprète une tradition dans l’histoire du textile, celle du foulard commémoratif. De l’œuvre d’expression à l’objet, la collection MTL375 est le fruit d’un processus en conception textile nouveau, qui réuni procédé d’impression numérique et  impression artisanale en sérigraphie. L’enjeu de ce travail est de redessiner  la frontière entre artisanat et design en explorant de nouvelles pratiques d’impression  sur la scène de la création textile en métiers d’art."
   images:

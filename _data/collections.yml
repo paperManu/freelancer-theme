@@ -1,9 +1,25 @@
-- name: "Textile mural"
-  title: "Murales sérigraphiées <br> sur mesure ou prêt-à-poser"
-  description: "Voici la nouvelle collection de murales sérigraphiées par mes petites mains main, dans mon atelier à Montréal. Les murales font souffler un vent de renouveau dans le monde de la tapisserie avec un mélange sensible de textures, de motifs folks, et de design graphique. J’offre un service sur mesure, de la conception de motifs exclusifs à la recherche de couleurs, pour proposer des décors muraux sérigraphiés qui sauront s’adapter à tous les espaces, et répondre aux cahiers des charges les plus pointus. Les murales sont imprimées sur une toile de coton facile d’entretien et lavable, à encoller au mur ou à tendre sur un châssis. Entièrement de fabrication montréalaise, les murales renouent avec un riche passé du papier peint imprimé à la main, en y ajoutant une touche de design contemporain."
+- name: "Memoires"
+  title: "Série Mémoires"
+  description: "Pour la récente série intitulée « Mémoires », je puise dans  l’histoire du revêtement mural à ses origines, quand le papier était dominos, des feuilles de papier imprimées à la planche de bois, au XVIe siècle en Europe. Les papiers dominotés étaient collés aux murs et juxtaposés les uns aux autres pour obtenir le raccord du motif, dans un but décoratif. La technique traditionnelle des maîtres dominotiers a disparu à l’ère industrielle, au profit de l’impression mécanisée que nous connaissons aujourd’hui. <br>
+La délimitation de mes cadres de sérigraphie se lit clairement dans le motif par la superposition des impressions répétées et font référence aux papiers dominotés. J’utilise mes cadres de sérigraphie en recherchant l’expression de la mémoire altérée par les manques et les imperfections dans les raccords des motifs. Ainsi, je recherche volontairement ces irrégularités pour évoquer la fragilité des souvenirs qui s’estompent, autant que la sensibilité d’un geste artisanal en référence aux maîtres dominotiers. Par l’impression grand format, je travaille l’œuvre et le motif grandeur nature. Utiliser l’échelle humaine me permet de présenter mes œuvres comme des fragments de murs, porteurs d’histoire et d’identité. La surface mur est ici traitée comme un support d’expression, un marqueur d’identité, une dimension où on laisse son empreinte. C’est pourquoi j’utilise notamment  des motifs issus de traditions folkloriques de tous horizons, pour la même portée identitaire qu’ils véhiculent. Je pose également la question à travers cette série « Mémoires » de cet héritage folklorique : est-il vivant, comment se traduit-il au présent ?"
   images:
-    - file: "Mise en situation Murale_1catalogue.jpg"
-    - file: "Mise en situation_4catalogue.jpg"
-    - file: "Mise en situation Murale_2catalogue.jpg"
-    - file: "Mise en situation Murale_3catalogue.jpg"
-    - file: "Mise en situation Murale_5catalogue.jpg"
+    - file: "memoires deliquescentes 1.jpg"
+      description: "Mémoires déliquescentes #1, 2018 <br>
+                    Colorants acryliques et pigmentaires sur toile de coton <br>
+                    55’’ x 33’’"
+    - file: "memoires deliquescentes 2.jpg"
+      description: "Mémoires déliquescentes #2, 2018 <br>
+                    Colorants acryliques et pigmentaires sur toile de coton <br>
+                    55’’ x 33’’"
+    - file: "memoires resurgentes 1.jpg"
+      description: "Mémoires résurgentes #1, 2018 <br>
+                    Colorants acryliques et pigmentaires sur toile de coton <br>
+                    55’’ x 33’’"
+    - file: "memoires resurgentes 2.jpg"
+      description: "Mémoires résurgentes #2, 2018 <br>
+                    Colorants acryliques et pigmentaires sur toile de coton <br>
+                    55’’ x 46’’"
+    - file: "memoires fragmentees.jpg"
+      description: "Mémoires fragmentées #1 à 9, 2018 <br>
+                    Colorants acryliques et pigmentaires sur toile de coton <br>
+                    16’’ x 20’’"

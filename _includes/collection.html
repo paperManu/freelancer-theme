@@ -12,14 +12,34 @@
         </div>
       </div>
 
-      {% for image in collection.images %}
       <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 portfolio-item">
-          {% include image-with-description.html %}
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-sm-12 portfolio-nopadding">
+            {% for image in collection.images limit:2 %}
+            <div class="col-sm-6 portfolio-item">
+              {% include image-with-description.html %}
+            </div>
+            {% endfor %}
+          </div>
+
+          <div class="col-sm-12 portfolio-nopadding">
+            {% for image in collection.images limit:2 offset:2 %}
+            <div class="col-sm-6 portfolio-item">
+              {% include image-with-description.html %}
+            </div>
+            {% endfor %}
+          </div>
+
+          <div class="col-sm-12 portfolio-nopadding">
+            {% for image in collection.images limit:2 offset:4 %}
+            <div class="col-sm-12 portfolio-item">
+              {% include image-with-description.html %}
+            </div>
+            {% endfor %}
+          </div>
         </div>
       </div>
       <br>
-      {% endfor %}
 
     {% endfor %}
   </div>
